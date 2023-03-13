@@ -56,6 +56,16 @@ while i < len(thislist):
   print(thislist[i])
   i = i + 1
 
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort(key = str.lower)
+print(thislist) 
+
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.reverse()
+print(thislist)
+
 # append()	Adds an element at the end of the list
 # clear()	Removes all the elements from the list
 # copy()	Returns a copy of the list
