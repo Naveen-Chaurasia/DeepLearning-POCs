@@ -62,6 +62,12 @@ thislist.sort(key = str.lower)
 print(thislist) 
 
 
+import numpy as np
+arr = np.array([3, 2, 0, 1])
+print(np.sort(arr))
+
+
+
 thislist = ["banana", "Orange", "Kiwi", "cherry"]
 thislist.reverse()
 print(thislist)
